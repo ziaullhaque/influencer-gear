@@ -76,6 +76,9 @@ a {
   font-size: 1rem;
   font-weight: 600;
 }
+.btn-primary a{
+    color: rgb(255, 255, 255);
+}
 .btn-primary {
   padding: 10px 24px;
   border: none;
@@ -85,6 +88,11 @@ a {
   border-radius: 41px;
   color: rgb(255, 255, 255);
   background: rgb(224, 44, 109);
+  transition: all 0.8s;
+}
+.btn-primary:hover {
+  transform: scale(1.1);
+  background-color: rgb(237, 6, 91);
 }
 .arrow-btn {
   align-items: center;
@@ -229,6 +237,9 @@ a {
   font-size: 1rem;
   font-weight: 700;
 }
+.btn-join a{
+    color: rgb(255, 255, 255);
+}
 .btn-join {
   padding: 10px 24px;
   border: none;
@@ -237,6 +248,12 @@ a {
   font-size: 16px;
   font-weight: 700;
   background: rgb(224, 44, 109);
+  transition: all 0.8s;
+}
+
+.btn-join:hover {
+  transform: scale(1.1);
+  background-color: rgb(237, 6, 91);
 }
 
 /* footer section start */
